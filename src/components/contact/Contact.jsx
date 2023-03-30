@@ -10,7 +10,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_9fcbpjq', 'template_fcuszx4', form.current, '-PitvCUDynDKoy8qE')
+        emailjs.sendForm('YOUR_emailjs_parameters')
         .then((result) => {
             console.log(result.text);
             if(result.text==="OK"){
