@@ -67,6 +67,18 @@ const backend1 = [
 ];
 const backend2 = [
     {
+        name : 'C#',
+        icon : 'skillIcon devicon-csharp-plain'
+    },
+    {
+        name : 'C++',
+        icon : 'skillIcon devicon-cplusplus-plain'
+    },
+    {
+        name : 'RestAPI',
+        icon : 'skillIcon bx bx-badge-check'
+    },
+    {
         name : 'MongoDB',
         icon : 'skillIcon devicon-mongodb-plain'
     },
@@ -146,10 +158,6 @@ const others2 = [
     },
     {
         name : 'x-Path',
-        icon : 'skillIcon bx bx-badge-check'
-    },
-    {
-        name : 'JSON',
         icon : 'skillIcon bx bx-badge-check'
     },
     {

@@ -12,20 +12,20 @@ const Footer = () => {
                     <a href="#about" className="footer__link">About</a>
                 </li>
                 <li>
-                    <a href="#portfolio" className="footer__link">Projects</a>
+                    <a href="#projects" className="footer__link">Projects</a>
                 </li>
             </ul>
 
             <div className="footer__social">
-                <a href="https://www.linkedin.com/in/kiran-veer" className="footer__social-link" target="_blank" >
-                    <i class="uil uil-linkedin-alt"></i>
+                <a href="https://www.linkedin.com/in/kiran-veer" rel="noreferrer" className="footer__social-link" target="_blank" >
+                    <i className="uil uil-linkedin-alt"></i>
                 </a>
 
-                <a href="https://github.com/Keyrun847" className="footer__social-link" target="_blank" >
-                    <i class="uil uil-github-alt"></i>
+                <a href="https://github.com/Keyrun847" rel="noreferrer" className="footer__social-link" target="_blank" >
+                    <i className="uil uil-github-alt"></i>
                 </a>
 
-                <a href="https://www.instagram.com/key_run847" className="footer__social-link" target="_blank" >
+                <a href="https://www.instagram.com/key_run847" rel="noreferrer" className="footer__social-link" target="_blank" >
                     <i className="uil uil-instagram"></i>
                 </a>
             </div>

@@ -69,20 +69,20 @@ const Contact = () => {
                     <form ref={form} onSubmit={sendEmail} className="contact__form">
                         <div className="contact__form-div">
                             <label className="contact__form-tag">Name</label>
-                            <input type="text" name='name' className='contact__form-input' placeholder='Insert your name' />
+                            <input type="text" name='name' className='contact__form-input' placeholder='Insert your name' required />
                         </div>
                         <div className="contact__form-div">
                             <label className="contact__form-tag">Email</label>
-                            <input type="email" name='email' className='contact__form-input' placeholder='Insert your Email' />
+                            <input type="email" name='email' className='contact__form-input' placeholder='Insert your Email' required />
                         </div>
                         <div className="contact__form-div contact__form-area">
                             <label className="contact__form-tag">Idea</label>
-                            <textarea name="idea" cols="30" rows="10" className='contact__form-input' placeholder='Write your Idea'></textarea>
+                            <textarea name="idea" cols="30" rows="10" className='contact__form-input' placeholder='Write your Idea' required></textarea>
                         </div>
                         <button className="button button--flex">
                             Say Hello
                             <svg
-                                class="button__icon"
+                                className="button__icon"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
                                 height="24"

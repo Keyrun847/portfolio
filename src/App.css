@@ -149,7 +149,7 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: var(--title-color);
+  background-color: #24315D;
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;

@@ -80,6 +80,21 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.techpunch {
+    background : url('../../assets/techpunch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tejassupliers {
+    background : url('../../assets/tejassuppliers.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.eXchange {
+    background : url('../../assets/eXchange.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .projects__modal-content {
     width: 500px;
     position: relative;

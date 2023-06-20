@@ -3,9 +3,7 @@ import './qualification.css'
 
 const Qualification = () => {
 
-
     const [qual, setQual] = useState(0)
-
 
     return (
         <section className="qualification section"  id='experience'>
@@ -18,7 +16,12 @@ const Qualification = () => {
                         <i className="uil uil-graduation-cap qualification__icon"></i>
                         &nbsp;Education
                     </div>
-
+                    <div style={{
+                        marginTop:'10px',
+                        color:'black',
+                        textDecoration: 'bold',
+                        fontSize: '1.2rem'
+                    }}>&nbsp;/&nbsp;</div>
                     <div onClick={()=>setQual(1)} className={qual===1?"qualification__button qualification__active button--flex":"qualification__button button--flex"}>
                         <i className="uil uil-briefcase-alt qualification__icon"></i>
                         &nbsp;Experience
