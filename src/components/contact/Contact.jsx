@@ -10,11 +10,11 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('YOUR_emailjs_parameters')
+        emailjs.sendForm('service_9fcbpjq', 'template_fcuszx4', form.current, '-PitvCUDynDKoy8qE')
         .then((result) => {
             console.log(result.text);
             if(result.text==="OK"){
-                alert("Idea Received");
+                alert("Thank you for the respone. Your Idea is Received. I'll connect with you");
                 e.target.reset();
             }
         }, (error) => {
