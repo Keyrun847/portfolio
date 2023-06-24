@@ -1,12 +1,24 @@
-import React, { useState } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import "./header.css"
 
 const Header = () => {
 
+    const menu = useRef(null);
     const [toggle, showMenu] = useState(false);
 
+    useEffect(() => {
+      if(toggle)   document.addEventListener('click', handleOutSideClick);
+      else document.removeEventListener('click', handleOutSideClick);
+    }, [toggle]);
+
+    const handleOutSideClick = (e) => {
+        if (menu.current && (!menu.current.contains(e.target))) {
+            showMenu(false);
+        }
+    };
+
     return (
-        <header className="header">
+        <header className="header" ref={menu}>
             <nav className="nav container">
                 <a href="index.html" className="nav__logo">Kiran</a>
                 
