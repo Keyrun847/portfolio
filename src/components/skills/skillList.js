@@ -67,12 +67,8 @@ const backend1 = [
 ];
 const backend2 = [
     {
-        name : 'C#',
+        name : 'C# Basics',
         icon : 'skillIcon devicon-csharp-plain'
-    },
-    {
-        name : 'C++',
-        icon : 'skillIcon devicon-cplusplus-plain'
     },
     {
         name : 'RestAPI',
@@ -83,7 +79,7 @@ const backend2 = [
         icon : 'skillIcon devicon-mongodb-plain'
     },
     {
-        name : 'ES6',
+        name : 'Passport Js',
         icon : 'skillIcon bx bx-badge-check'
     }
 ];

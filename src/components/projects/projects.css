@@ -95,6 +95,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.todoApp {
+    background : url('../../assets/todolist.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .projects__modal-content {
     width: 500px;
     position: relative;

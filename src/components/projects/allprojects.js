@@ -46,12 +46,12 @@ const projects = [
     },
     {
         id : 6,
-        name1 : 'Arriving',
-        name2 : 'Soon',
-        modalTitle : 'Arriving Soon',
-        modalDescription : '',
-        link : 'https://www.kiranveer.tech',
-        className : 'project__link'
+        name1 : 'TodoList',
+        name2 : 'App',
+        modalTitle : 'TodoList App',
+        modalDescription : 'Built a Todo list app using Nodejs, MongoDB and Ejs',
+        link : 'https://todolistapp-eq9r.onrender.com',
+        className : 'project__link todoApp'
     }
 ]
 export default projects
