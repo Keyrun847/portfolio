@@ -22,7 +22,7 @@ const frontend1 = [
 ];
 const frontend2 = [
     {
-        name : 'J-Query',
+        name : 'JQuery',
         icon : 'skillIcon devicon-jquery-plain'
     },
     {
@@ -34,7 +34,7 @@ const frontend2 = [
         icon : 'skillIcon devicon-materialui-plain'
     },
     {
-        name : 'JSX',
+        name : 'EJS',
         icon : 'skillIcon bx bx-badge-check'
     },
     {
@@ -57,11 +57,11 @@ const backend1 = [
         icon : 'skillIcon devicon-mysql-plain'
     },
     {
-        name : 'Node.js',
+        name : 'Node',
         icon : 'skillIcon devicon-nodejs-plain'
     },
     {
-        name : 'Express.js',
+        name : 'Express',
         icon : 'skillIcon devicon-express-original'
     }
 ];
@@ -80,6 +80,10 @@ const backend2 = [
     },
     {
         name : 'Passport Js',
+        icon : 'skillIcon bx bx-badge-check'
+    },
+    {
+        name : 'JWT',
         icon : 'skillIcon bx bx-badge-check'
     }
 ];
@@ -127,7 +131,7 @@ const testing2 = [
 
 const others1 = [
     {
-        name : 'C Programming',
+        name : 'C Program',
         icon : 'skillIcon devicon-c-plain'
     },
     {
@@ -153,7 +157,7 @@ const others2 = [
         icon : 'skillIcon bx bx-badge-check'
     },
     {
-        name : 'x-Path',
+        name : 'xPath',
         icon : 'skillIcon bx bx-badge-check'
     },
     {
