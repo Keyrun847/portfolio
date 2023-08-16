@@ -38,7 +38,7 @@ const frontend2 = [
         icon : 'skillIcon bx bx-badge-check'
     },
     {
-        name : 'ES6',
+        name : 'PIXI Js',
         icon : 'skillIcon bx bx-badge-check'
     }
 ];

@@ -81,11 +81,11 @@ const Qualification = () => {
                     <div className={qual===1?"qualification__content qualification__content-active":"qualification__content"}>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Software Engineer</h3>
-                                <span className="qualification__subtitle">Persistent Systems Ltd.</span>
+                                <h3 className="qualification__title">Associate Software Engineer</h3>
+                                <span className="qualification__subtitle">Scientific Games India Pvt. Ltd.</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
-                                    &nbsp;Aug 2022 - Present
+                                    &nbsp;Aug 2023 - Present
                                 </div>
                             </div>
 
@@ -104,22 +104,22 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Web Developer</h3>
-                                <span className="qualification__subtitle">Flying Brains Innovations Pvt Ltd</span>
+                                <h3 className="qualification__title">Software Engineer</h3>
+                                <span className="qualification__subtitle">Persistent Systems Ltd.</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
-                                    &nbsp;Oct 2020 - Dec 2020
+                                    &nbsp;Aug 2022 - Jul 2023
                                 </div>
                             </div>
                         </div>
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Life Advisor</h3>
-                                <span className="qualification__subtitle">Kotak Life Insurance</span>
+                                <h3 className="qualification__title">Web Developer</h3>
+                                <span className="qualification__subtitle">Flying Brains Innovations Pvt Ltd</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
-                                    &nbsp;Jan 2019 - Mar 2022
+                                    &nbsp;Oct 2020 - Dec 2020
                                 </div>
                             </div>
 
