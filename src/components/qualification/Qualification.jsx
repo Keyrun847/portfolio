@@ -32,7 +32,7 @@ const Qualification = () => {
                     <div className={qual===0?"qualification__content qualification__content-active":"qualification__content"}>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">B. Engineering</h3>
+                                <h3 className="qualification__title">Bachelor of Engineering</h3>
                                 <span className="qualification__subtitle">KLEMSSCET Belagavi</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>&nbsp;2018 - 2022
@@ -54,7 +54,7 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">PUC</h3>
+                                <h3 className="qualification__title">Pre University Course</h3>
                                 <span className="qualification__subtitle">R L PU College of Science, Belagavi</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>&nbsp;2016 - 2018

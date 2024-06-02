@@ -58,7 +58,7 @@ const Data = () => {
         <h3 className="home__subtitle">Full Stack Developer</h3>
         <h3 className="home__namaste">Namaste,</h3>
         <p className="home__description">My name is Kiran Veerabhadranavar.<br/>
-          I'm a creative Full stack Developer with love for Efficient Coding.
+          I'm a creative Full stack Developer with love for Efficient Programming.
         </p>
         <a href="#contact" className="button button--flex">
           Say Hello

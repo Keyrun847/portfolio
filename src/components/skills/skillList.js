@@ -18,9 +18,17 @@ const frontend1 = [
     {
         name : 'Bootstrap',
         icon : 'skillIcon devicon-bootstrap-plain'
+    },
+    {
+        name : 'GSAP',
+        icon : 'skillIcon bx bx-badge-check'
     }
 ];
 const frontend2 = [
+    {
+        name : 'Typescript',
+        icon : 'skillIcon devicon-typescript-plain'
+    },
     {
         name : 'JQuery',
         icon : 'skillIcon devicon-jquery-plain'
@@ -66,10 +74,6 @@ const backend1 = [
     }
 ];
 const backend2 = [
-    {
-        name : 'C# Basics',
-        icon : 'skillIcon devicon-csharp-plain'
-    },
     {
         name : 'RestAPI',
         icon : 'skillIcon bx bx-badge-check'
@@ -147,23 +151,31 @@ const others1 = [
         icon : 'skillIcon bx bx-badge-check'
     },
     {
-        name : 'JSON',
-        icon : 'skillIcon bx bx-badge-check'
+        name : 'Bitbucket',
+        icon : 'skillIcon devicon-bitbucket-original'
     }
 ]
 const others2 = [
     {
-        name : 'XML',
-        icon : 'skillIcon bx bx-badge-check'
-    },
-    {
-        name : 'xPath',
-        icon : 'skillIcon bx bx-badge-check'
-    },
-    {
         name : 'Linux',
         icon : 'skillIcon devicon-linux-plain'
-    }
+    },
+    {
+        name : 'VS Code',
+        icon : 'skillIcon bx bx-badge-check'
+    },
+    {
+        name : 'Eclipse',
+        icon : 'skillIcon bx bx-badge-check'
+    },
+    {
+        name : 'Click Up',
+        icon : 'skillIcon bx bx-badge-check'
+    },
+    {
+        name : 'Microsoft Office',
+        icon : 'skillIcon bx bx-badge-check'
+    },
 ];
 
 export { frontend1, frontend2, backend1, backend2, testing1, testing2, others1, others2 };

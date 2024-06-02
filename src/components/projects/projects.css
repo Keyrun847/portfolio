@@ -80,6 +80,36 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.CTTS {
+    background : url('../../assets/CTTS.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.FCC {
+    background : url('../../assets/FCC.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.MAXCASH {
+    background : url('../../assets/MAXCASH.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.GOL {
+    background : url('../../assets/GOL.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.BB {
+    background : url('../../assets/BB.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.EASYM {
+    background : url('../../assets/EASYM.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .techpunch {
     background : url('../../assets/techpunch.png');
     background-repeat: no-repeat;
